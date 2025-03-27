@@ -103,7 +103,6 @@ WHERE t.name LIKE 'APP_% com.lunarg.gfxreconstruct.replay/android.app.NativeActi
 def process_perfetto_file(file):
     """Processes a single Perfetto file and returns the extracted data."""
     print(f"Processing {file}")
-#    try:
     if True:
         tp = TraceProcessor(trace=file)
 
